@@ -4,7 +4,7 @@
 
 Allen Klein
 
-
+- [Link to Video](https://watch.screencastify.com/v/K4gFKGT2ykvqIUZWjcmy)
 - [Link to Github Repository](https://github.com/allen-ek/CLI-TeamPageGenerator)
 
 ## Why?
