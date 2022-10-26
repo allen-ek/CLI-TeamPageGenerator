@@ -4,8 +4,8 @@
 
 Allen Klein
 
-- [Link to Site]( https://allen-ek.github.io/WeatherDash/)
-- [Link to Github Repository](https://github.com/allen-ek/WeatherDash)
+
+- [Link to Github Repository](https://github.com/allen-ek/CLI-TeamPageGenerator)
 
 ## Why?
 I wanted to create a command line profile generator for software teams. That takes inputted data about the team members from
@@ -24,14 +24,30 @@ HTML
 
 ## Code Snippet
 ```html
-var requestURL="https://api.openweathermap.org/data/2.5/weather?q="+inputEl.value+"&appid=6cda419b1462d4e231cfcd1dac976851";
-    fetch(requestURL)
-        .then(function(response){
-            
-            return response.json();
-        })
-         .then(function(data){
-```
-The code snippet above was the code that allowed for retriving information through a fetch using a api key to retrive information from the Open Weather API.
+class Employee{
+    constructor(name,id,email){
+        this.name=name;
+        this.id=id;
+        this.email=email;
+    }
+    // Getter
+    getName() {
+        return this.name;
+    }
 
-![Site](Screenshot.png
+    getId(){
+        return this.id;
+    }
+      
+    getEmail(){
+        return this.email;
+    }
+      
+      getRole() {
+        return 'Employee';
+    }
+}
+```
+The code snippet above was the code for the parent class of Engineer Intern and Manager. Which allowed these child classes to inherit some of the
+methods and parameters.
+
